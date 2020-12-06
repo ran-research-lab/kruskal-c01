@@ -26,7 +26,7 @@ public:
     Graph() { edgeList.resize(0); }
     void addWeightedEdge(int aa, int bb, int w);
 
-    void minSpanningTree();
+    vector<WeightedEdge> minSpanningTree();
 };
 
 

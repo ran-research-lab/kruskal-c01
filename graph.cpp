@@ -22,13 +22,15 @@ void Graph::addWeightedEdge(int a, int b, int w) {
 // Implements Kruskal's minimum spanning tree algorithm and outputs
 // the list of edges of the min spanning tree.
 
-void Graph::minSpanningTree() {
+vector<WeightedEdge> Graph::minSpanningTree() {
 
     // This will sort the edges in ascending weight order
     sort(edgeList.begin(), edgeList.end());
 
-    // Uncomment to see the edges in ascending order of weight
-    for (auto e: edgeList) cout << e.a << " " << e.b << " " << e.w << endl;
+    vector<WeightedEdge> A;
 
+    // Uncomment to see the edges in ascending order of weight
+    // for (auto e: edgeList) cout << e.a << " " << e.b << " " << e.w << endl;
+    return A;
 
 }
