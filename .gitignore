@@ -1,2 +1,7 @@
 cmake-build-debug/
 .idea/
+catch_amalgamated.hpp
+catch_amalgamated.cpp
+main
+CMakeCache.txt
+CMakeFiles/
